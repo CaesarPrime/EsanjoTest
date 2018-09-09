@@ -13,8 +13,7 @@ What you would all need to do is download the repository using
 ```
 $ git clone https://github.com/CaesarPrime/EsanjoTest.git
 ```
-
-Then activate the virtual environment using 
+Now get in to the EsanjoTest folder using cd command and activate the virtual environment using 
 
 ```
 $ . venv/bin/activate 
