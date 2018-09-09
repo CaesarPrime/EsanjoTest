@@ -6,7 +6,7 @@ The details regarding the deployment on development server are as follows. For P
 
 References:- For the Auth Services Design https://github.com/miguelgrinberg/REST-auth this repository had been used.
 
-## Installation - Development
+## Installation
 In this repository I have configured a python3 virtual environment. Therefore it would have all it's dependencies.
 
 What you would all need to do is download the repository using 
@@ -29,6 +29,8 @@ $ flask run
 ```
 
 Once done the server would listen on http://localhost:5000
+
+If you need to deploy this you can always use an app service provider as it would be the best option.
 
 ## Task 1
 
