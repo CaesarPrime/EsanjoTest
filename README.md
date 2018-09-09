@@ -35,6 +35,7 @@ Once done the server would listen on http://localhost:5000
 Use http://localhost:5000/task1 to access the task. Data needed for the processing were imported from the json 
 
 ## Task 2
+The mysql DB structure that would be needed is as follows. The db name I have used is `esanjo_test` But you can use whatever you like and change the required details in the sql connection string in Organizer.py
 
 Use http://localhost:5000/task2 to access the task. 
 
