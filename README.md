@@ -40,13 +40,13 @@ Use http://localhost:5000/task1 to access the task. Data needed for the processi
 The mysql DB structure that would be needed is as follows. 
 database name: esanjo_test
 
-pagination_sample
+##### Table Name : pagination_sample
 -----------------
 id int
 name varchar(50)
 description(255)
 
-user
+##### Table Name : user
 ----
 id int
 username varchar(50)
