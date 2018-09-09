@@ -37,7 +37,22 @@ If you need to deploy this you can always use an app service provider as it woul
 Use http://localhost:5000/task1 to access the task. Data needed for the processing were imported from the json 
 
 ## Task 2
-The mysql DB structure that would be needed is as follows. The db name I have used is `esanjo_test` But you can use whatever you like and change the required details in the sql connection string in Organizer.py
+The mysql DB structure that would be needed is as follows. 
+database name: esanjo_test
+
+pagination_sample
+-----------------
+id int
+name varchar(50)
+description(255)
+
+user
+----
+id int
+username varchar(50)
+password_hash(255)
+
+The db name I have used is `esanjo_test` But you can use whatever you like and change the required details in the sql connection string in Organizer.py
 
 Use http://localhost:5000/task2 to access the task. 
 
