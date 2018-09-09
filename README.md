@@ -38,6 +38,17 @@ Use http://localhost:5000/task1 to access the task. Data needed for the processi
 
 Use http://localhost:5000/task2 to access the task. 
 
+For Registering a user,
+
+```$ curl -i -X POST -H "Content-Type: application/json" -d '{"username":"Pasan","password":"toor"}' http://127.0.0.1:5000/api/users```
+
+In order to receive the token
+
+```$ curl -u Pasan:toor -i -X GET http://127.0.0.1:5000/api/token```
+
+To Access the restricted api with the token. Here x would be just an arbitary variable where password is set.
+
+```$ curl -u eyJhbGciOiJIUzI1NiIsImV4cCI6MTM4NTY2OTY1NSwiaWF0IjoxMzg1NjY5MDU1fQ.eyJpZCI6MX0.XbOEFJkhjHJ5uRINh2JA1BPzXjSohKYDRT472wGOvjc:x -i -X GET http://127.0.0.1:5000/task2 ```
 
 ## Acknowledgements
 1. [Miguel Grinberg's] (https://github.com/miguelgrinberg) [Flask authentication app repository](https://github.com/miguelgrinberg/REST-auth)
