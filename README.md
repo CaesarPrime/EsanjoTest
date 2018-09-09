@@ -41,16 +41,16 @@ The mysql DB structure that would be needed is as follows.
 database name: esanjo_test
 
 ##### Table Name : pagination_sample
------------------
-id int
-name varchar(50)
-description(255)
+--
+id int primary key AUTO_INCREMENT,
+name varchar(50),
+description(255),
 
 ##### Table Name : user
-----
-id int
-username varchar(50)
-password_hash(255)
+--
+id int primary key AUTO_INCREMENT,
+username varchar(50),
+password_hash(255),
 
 The db name I have used is `esanjo_test` But you can use whatever you like and change the required details in the sql connection string in Organizer.py
 
